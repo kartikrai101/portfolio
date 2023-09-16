@@ -117,7 +117,7 @@ const educationInfo = {
     {
       schoolName: "Guru Gobind Singh Indraprastha University",
       logo: require("./assets/images/ggsipu.png"),
-      subHeader: "Master of Science in Computer Science",
+      subHeader: "B.Tech - Computer Science and Engineering(CSE)",
       duration: "November 2020 - June 2024",
       desc: "CGPA: 9.278 (Currently)",
       // descBullets: [
@@ -178,7 +178,7 @@ const workExperiences = {
       role: "Full Stack Developer",
       company: "Jethi Tech Solutions",
       companylogo: require("./assets/images/jethiTech.jpeg"),
-      date: "June 2023 – Present",
+      date: "June 2023 – August 2023",
       desc: "Worked as a Full Stack developer majorly working on the frontend of various websites throughout the time period",
       descBullets: [
         "Created the entire frontend of over 7+ different product and service based websites till now with ReactJS, NextJS, TailwindCSS and other libraries for better user engagement.",
@@ -189,7 +189,7 @@ const workExperiences = {
       role: "Front-End Developer",
       company: "Petmojo",
       companylogo: require("./assets/images/petmojo.png"),
-      date: "May 2017 – May 2018",
+      date: "August 2022 – December 2022",
       desc: "Developed the entire website and optimised screen sizes and systems using ReactJS, NextJS, TailwindCSS and JavaScript with 99% performance score.",
       descBullets: [
         "Developed REST APIs on NodeJS and ExpressJS for fetching and sending data to MongoDB database.",
