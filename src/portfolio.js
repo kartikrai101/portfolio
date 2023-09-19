@@ -23,7 +23,7 @@ const greeting = {
   username: "Kartik Rai",
   title: "Kartik here",
   subTitle: emoji(
-    "A Full Stack developer with experience in building websites. You can often find me solving problems on Leetcode, CodeStudio or Codeforces or maybe developing a new skill! P.S. I make good song recommendations :)"
+    "A Full Stack developer with experience in building websites. You can often find me solving problems or maybe developing a new skill! P.S. I make good song recommendations :)"
   ),
   resumeLink:
     "https://drive.google.com/file/d/12mmK08Gg4r0_0Vqp0Ipk7IxVGcjwLHZ7/view?usp=sharing", // Set to empty to hide the button
@@ -46,7 +46,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "FULL STACK DEVELOPER, OPEN TO LEARNING NEW TECHNOLOGIES AND BUILDING PROJECTS",
   skills: [
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web applications"
@@ -212,7 +212,7 @@ const openSource = {
 
 const bigProjects = {
   title: "Projects",
-  subtitle: "SOME OF MY BEST ONES TILL NOW",
+  subtitle: "",
   projects: [
     {
       image: require("./assets/images/project1.png"),
@@ -308,23 +308,23 @@ const achievementSection = {
 const blogSection = {
   title: "Blogs",
   subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
+    "With Love for Developing cool stuff, I love to write about things that I find fascinating!",
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      url: "https://kitrakiar73.medium.com/rate-limiters-how-to-make-one-1a0010b6874d",
+      title: "Rate Limiters-How to build one!",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+        "Learn what rate limiters are? Principle behind their working, and how to build one!"
     },
-    {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
-      description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
-    }
+    // {
+    //   url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
+    //   title: "Why REACT is The Best?",
+    //   description:
+    //     "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+    // }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
