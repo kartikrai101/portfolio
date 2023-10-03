@@ -317,6 +317,18 @@ const blogSection = {
       description:
         "Learn what rate limiters are? Principle behind their working, and how to build one!"
     },
+    {
+      url: "https://kitrakiar73.medium.com/url-shortner-how-to-build-one-f458fecf038f",
+      title: "URL Shortners-How to build one?",
+      description:
+        "Build your own URL shortner like tinyurl."
+    },
+    {
+      url: "https://kitrakiar73.medium.com/web-crawlers-how-to-build-one-89bf65716518",
+      title: "Web Crawlers-How to build one?",
+      description:
+        "See why web crawlers are so important, their applications and implementation."
+    },
     // {
     //   url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
     //   title: "Why REACT is The Best?",
