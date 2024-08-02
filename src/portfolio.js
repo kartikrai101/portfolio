@@ -175,6 +175,18 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Software Developer",
+      company: "Uniblox",
+      companylogo: require("./assets/images/uniblox_logo.jpeg"),
+      date: "January 2024 – July 2024",
+      desc: "Worked as a Software Developer where I wore multiple hats. From creating new features to re-structuring the automation, I have worked throughout the whole software development process.",
+      descBullets: [
+        "Developed and integrated product features including product metrics, SSO, PDF generator, and APIs for data management using Uniblox packages; enhanced user experience and increased user data processing speed by 8%",
+        "Performed testing for frontend using Playwright and backend using Jest for over 20 different repositories. Contributed in re-structuring automation for multiple repositories and products",
+        "Regularly scrutinize logs with New Relic in development environment to identify and diagnose service failures"
+      ]
+    },
+    {
       role: "Full Stack Developer",
       company: "Jethi Tech Solutions",
       companylogo: require("./assets/images/jethiTech.jpeg"),
