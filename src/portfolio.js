@@ -271,7 +271,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/ratelimiter.jpeg"),
+      image: require("./assets/images/ratelimiter.jpg"),
       projectName: "Rate Limiter",
       projectDesc: "Limit the number of requests to your public APIs/Services",
       footerLink: [
