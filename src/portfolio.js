@@ -26,7 +26,7 @@ const greeting = {
     "A Full Stack developer with experience in building websites. You can often find me solving problems or maybe developing a new skill! P.S. I make good song recommendations :)"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/12mmK08Gg4r0_0Vqp0Ipk7IxVGcjwLHZ7/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1kKGj6s4V6plkmQ_PRA86h5_tDdy1wl7i/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -119,7 +119,7 @@ const educationInfo = {
       logo: require("./assets/images/ggsipu.png"),
       subHeader: "B.Tech - Computer Science and Engineering(CSE)",
       duration: "November 2020 - June 2024",
-      desc: "CGPA: 9.278 (Currently)",
+      desc: "CGPA: 9.31",
       // descBullets: [
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
@@ -187,17 +187,6 @@ const workExperiences = {
       ]
     },
     {
-      role: "Full Stack Developer",
-      company: "Jethi Tech Solutions",
-      companylogo: require("./assets/images/jethiTech.jpeg"),
-      date: "June 2023 – August 2023",
-      desc: "Worked as a Full Stack developer majorly working on the frontend of various websites throughout the time period",
-      descBullets: [
-        "Created the entire frontend of over 7+ different product and service based websites till now with ReactJS, NextJS, TailwindCSS and other libraries for better user engagement.",
-        "Orchestrated seamless backend and frontend integration of website, resulting in a 40% reduction in page load time and a 25% increase in user engagement and conversion rates."
-      ]
-    },
-    {
       role: "Front-End Developer",
       company: "Petmojo",
       companylogo: require("./assets/images/petmojo.png"),
@@ -207,6 +196,17 @@ const workExperiences = {
         "Developed REST APIs on NodeJS and ExpressJS for fetching and sending data to MongoDB database.",
         "Integration of the Payment Gateway with the built frontend for transaction, thereby increasing the sales of products by a huge margin.",
         "Complete website SEO optimisation to enhance the website’s indexing and made it 96% SEO optimised."
+      ]
+    },
+    {
+      role: "Full Stack Developer",
+      company: "Jethi Tech Solutions",
+      companylogo: require("./assets/images/jethiTech.jpeg"),
+      date: "June 2023 – August 2023",
+      desc: "Worked as a Full Stack developer majorly working on the frontend of various websites throughout the time period",
+      descBullets: [
+        "Created the entire frontend of over 7+ different product and service based websites till now with ReactJS, NextJS, TailwindCSS and other libraries for better user engagement.",
+        "Orchestrated seamless backend and frontend integration of website, resulting in a 40% reduction in page load time and a 25% increase in user engagement and conversion rates."
       ]
     },
   ]
@@ -256,6 +256,28 @@ const bigProjects = {
         {
           name: "Visit Github",
           url: "https://github.com/kartikrai101/NFTwarrantySystem"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/webcrawler.avif"),
+      projectName: "Web Crawler",
+      projectDesc: "A web crawler to crawl through pages and index them",
+      footerLink: [
+        {
+          name: "Visit Github",
+          url: "https://github.com/kartikrai101/web-crawler"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/ratelimiter.jpeg"),
+      projectName: "Rate Limiter",
+      projectDesc: "Limit the number of requests to your public APIs/Services",
+      footerLink: [
+        {
+          name: "Visit Github",
+          url: "https://github.com/kartikrai101/rate-limiter"
         }
       ]
     },
